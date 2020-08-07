@@ -1,0 +1,207 @@
+query serverInit ($url: String!) {
+    user: currentUser {
+        id
+        name
+        last_name
+        avatar
+        admin
+    }
+    page (url: $url) {
+        area
+    }
+}
+
+query getPageData ($url: String!) {
+    page (url: $url) {
+        id
+        url
+        title
+        breadcrumbs
+        meta
+        text
+    }
+}
+
+query disciplinesQuery {
+    disciplines {
+        id
+        title
+    }
+}
+
+query sponsorsList {
+  	sponsors {
+      id
+      title
+      image
+      url
+      type
+    }
+}
+
+query compititionsList ($page: Int!, $limit: Int!, $filter: Objects!) {
+    competitions (page: $page, limit: $limit, filter: $filter) {
+        id
+        title
+        url
+        discipline
+        location
+        date_from
+        date_to
+        image
+    }
+}
+
+query ratingsTypes {
+    ratingsTypes {
+        id
+        code
+        title
+        count
+    }
+}
+
+query lastResultsList ($page: Int!, $limit: Int!) {
+    competitionsResults (page: $page, limit: $limit) {
+        id
+        title
+        url
+        location
+        discipline
+        members
+        date
+        groups
+        targets
+        winner
+    }
+}
+
+query winnersList {
+    winners {
+        id
+        date
+        name
+        last_name
+        image
+        discipline
+        club
+        digit
+        description
+        result
+        result_max
+    }
+}
+
+query sliderList {
+    slider {
+        id
+        title
+        image
+        description
+        date_from
+        date_to
+        button_text
+        button_url
+    }
+}
+
+query userProfileQuery {
+    user: currentUser {
+        id
+        name
+        last_name
+        middle_name
+        phone
+        city
+        club
+        digit
+        email
+        birthday
+        sex
+        avatar
+        subscribe
+        agreement
+        budget
+        in_club
+    }
+    clubs {
+        id
+        title
+    }
+    digits {
+        id
+        title
+    }
+}
+
+query getClubsQuery {
+	clubs {
+		id
+		title
+	}
+}
+
+query ratingsListQuery ($filter: Objects!, $sort: Objects, $page: Int, $limit: Int) {
+	ratings (filter: $filter, sort: $sort, page: $page, limit: $limit) {
+		items {
+			place
+			diff
+			name
+			city
+			club
+			digit
+			targets
+			rating
+			group
+			competitions
+		}
+		pagination {
+			total
+			limit
+			page
+		}
+	}
+}
+
+query photoAlbumsQuery ($page: Int!, $limit: Int!, $filter: Objects!) {
+    items: photoAlbums (page: $page, limit: $limit, filter: $filter) {
+        id
+        title
+        date
+        location
+        url
+        photos {
+            preview
+            ratio
+        }
+    }
+}
+
+query calendarFormQuery ($id: String) {
+	form: calendarForm (id: $id)
+}
+
+query locationsQuery ($query: String, $type: String, $parent: Int) {
+	locations (query: $query, type: $type, parent: $parent)
+}
+
+query calendarListQuery ($page: Int!, $limit: Int!, $filter: Objects) {
+	calendarList (page: $page, limit: $limit, filter: $filter) {
+		items
+		pagination {
+			total
+			limit
+			page
+		}
+    }
+}
+
+mutation userUpdateMutation ($user: UserUpdateInput!) {
+    userUpdate (user: $user) {
+        id
+    }
+}
+
+mutation calendarFormMutation ($id: String!, $data: Objects!) {
+	calendarForm (id: $id, data: $data)
+}

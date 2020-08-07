@@ -1,0 +1,10 @@
+{
+  "require": {
+	"webonyx/graphql-php": "^0.12.6",
+	"ps/image-optimizer": "^1.2",
+	"ext-json": "*",
+	"ext-mbstring": "*",
+    "ext-sqlsrv": "*",
+    "ext-simplexml": "*"
+  }
+}

@@ -1,0 +1,251 @@
+﻿body {
+	font-family:Tahoma;
+	font-size:10px;
+	text-wrap:none;
+	white-space:nowrap;
+	overflow:hidden;
+	padding:0;
+	margin:0;
+	background-color:#e3e3e6;
+	line-height: normal;
+}
+table td {
+	border-collapse:collapse;
+	border:1px solid gray;
+	border-bottom:none;
+	border-right:none;
+	padding:0;
+	margin:0;
+	text-align:center;
+	background-color: inherit;
+}
+table {
+	border-spacing: 0;
+	border-collapse: separate;
+	border-bottom:1px solid gray;
+	border-right:1px solid gray;
+}
+td.noborder{
+	border:none !important;
+	padding:3px;
+}
+
+.orangeText {
+	color:#f87a14;
+}
+
+.blueText {
+	color:#91a5e0;
+}
+
+.leftEmptyColumn {
+	background-color:#e1e1e1 !important;
+	border-top:none !important;
+	border-bottom:none !important;
+}
+
+.x-grid-group-hd {
+	background-color:#e1e1e1 !important;
+}
+
+.calendarAccordion .x-header-text {
+	color: #f34926 !important;
+	font-size:14px;
+}
+
+.calendarAccordion .x-grid-group-title {
+	color: #0a1d4f;
+	font-size:12px;
+}
+.calendarAccordion .x-grid-group-hd {
+	border-bottom:none;
+	border-top:1px solid #c5c5c5;
+	padding-top:5px;
+}
+
+.calendarAccordion .x-grid-table {
+	border-top-width:0px;
+}
+
+.calendarAccordion .x-box-layout-ct {
+	background-color:transparent;
+}
+
+.transparentPanel .x-panel-body {
+	background-color:transparent;
+}
+
+.ratingTable {
+	font-size:10px;
+	border-collapse:collapse;
+	font-weight:normal;
+}
+
+.ratingTable th {
+	background-color:#415698;
+	border:1px solid #2c4182 !important;
+	color: #fff;
+	vertical-align:top;
+	font-weight:normal;
+}
+
+.ratingTable td {
+	white-space:nowrap;
+	text-align:center;
+	border: 1px solid #d9d9d9;
+}
+
+.ratingTable td.left {
+	text-align:left;
+}
+
+.red {
+	color:red;
+	font-weight: bold;
+}
+
+.green {
+	color:green;
+	font-weight: bold;
+}
+
+.blue {
+	color:blue;
+	font-weight: bold;
+}
+
+.bold{
+	font-weight:bold;
+}
+
+.left {
+	text-align:left;
+}
+
+.groupA, .groupA td {
+	background-color: #ffcc99;
+}
+
+.groupB, .groupB td {
+	background-color: #ffff99;
+}
+
+.groupC, .groupC td {
+	background-color: #00ccff;
+}
+
+.groupH, .groupH td {
+	background-color: #c0c0c0;
+}
+
+.limeRow{
+	background-color: lime;
+	font-size:3px;
+}
+
+.redRow{
+	background-color: red;
+	font-size:3px;
+}
+
+a.x-btn, a.x-menu-item-link {
+	text-decoration:none;
+}
+
+.grayText {
+	color:gray;
+}
+
+.transparent {
+	background-color:transparent;
+}
+
+.sheduleReport {
+	background-color: White;
+	margin: 20px;
+}
+
+.sheduleReport table {
+	border-collapse: collapse;
+}
+
+.sheduleReport table td {
+	padding: 2px 5px 2px 5px;
+	white-space: nowrap;
+}
+
+.sheduleReport .dot {
+	border: dotted 1px silver;
+}
+
+.adminImg {
+	cursor: pointer;
+	margin: 0 3px 0 0;
+	display:none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:bold;
+  color:#0a1d4f;
+}
+
+h1 {
+  font-size: 170%;
+}
+
+h2 {
+  font-size: 130%;
+  line-height: 115%;
+	letter-spacing: normal;
+	text-transform: none;
+}
+
+h3 {
+  font-size: 120%;
+}
+
+h4 {
+  font-size: 115%;
+}
+
+h5 {
+  font-size: 110%;
+}
+
+h6 {
+  font-size: 105%;
+}
+
+.cmd td {
+    background-color:white !important;
+}
+
+
+.camera_wrap a, .camera_wrap img, .camera_wrap ol, .camera_wrap ul, .camera_wrap li, .camera_wrap table, .camera_wrap tbody, .camera_wrap tfoot, .camera_wrap thead, .camera_wrap tr, .camera_wrap th, .camera_wrap td .camera_thumbs_wrap a, .camera_thumbs_wrap img, .camera_thumbs_wrap ol, .camera_thumbs_wrap ul, .camera_thumbs_wrap li, .camera_thumbs_wrap table, .camera_thumbs_wrap tbody, .camera_thumbs_wrap tfoot, .camera_thumbs_wrap thead, .camera_thumbs_wrap tr, .camera_thumbs_wrap th, .camera_thumbs_wrap td {
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+	list-style: none;
+}
+
+.camera_wrap table td {
+	border: 1px solid gray;
+	background-color: transparent;
+}
+
+.camera_wrap table {
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+.swiper-slide > table {
+	height: 100vh;
+	border: 0;
+}

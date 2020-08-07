@@ -1,0 +1,10 @@
+{
+	"schemaPath": "api.graphqls",
+	"extensions": {
+		"endpoints": {
+			"Test": {
+				"url": "https://fssmo.oly-d.ru/api/"
+			}
+		}
+	}
+}

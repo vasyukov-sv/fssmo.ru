@@ -1,0 +1,166 @@
+schema {
+	query: Query
+	mutation: Mutation
+}
+
+type Query {
+	page (url: String!): Page!
+	currentUser: User
+	externalAuth (back_url: String): [ExternalAuth!]
+	competitions (page: Int, limit: Int, filter: Objects): Competition
+	competitionsResults (page: Int, limit: Int): CompetitionResult
+	competitionsFilter (filter: String!): Objects
+	competitionsResultsFilter (filter: String!): Objects
+	clubs: [Club!]!
+	digits: [Digit!]!
+	disciplines: [Discipline!]!
+	sponsors: [Sponsor!]!
+	ratingsTypes: [ResultType!]!
+}
+
+type Mutation {
+	userLogin (login: String!, password: String!, remember: Boolean): User
+	userLogout: Boolean
+	userCreate (user: UserCreateInput!): UserCreateOutput
+	userRemember (login: String!): Boolean
+	userUpdate (user: UserUpdateInput!): User
+}
+
+type RequestOutput {
+	status: Boolean!
+	message: String!
+}
+
+type Page {
+	id: Int!
+	url: String!
+	title: String!
+	breadcrumbs: Objects!
+	meta: Objects!
+	text: String!
+	area: Objects!
+}
+
+type User {
+	id: Int!
+	name: String!
+	last_name: String!
+	middle_name: String!
+	phone: String!
+	city: Int!
+	club: Int!
+	digit: Int!
+	email: String!
+	birthday: String!
+	sex: GenderEnum!
+	avatar: String!
+	subscribe: Boolean!
+	agreement: Boolean!
+	admin: Boolean!
+}
+
+enum GenderEnum {
+
+	M
+	F
+}
+
+type ExternalAuth {
+	id: String!
+	name: String!
+	link: String!
+}
+
+type UserLoginOutput {
+	status: Boolean!
+	user: User
+}
+
+type UserCreateOutput {
+	status: Boolean!
+	user: User
+}
+
+type Competition {
+	id: Int!
+	code: String
+	url: String
+	title: String!
+	discipline: String!
+	date_from: String
+	date_to: String
+	type: String
+	location: String
+	image: String
+	registration: Boolean
+}
+
+type CompetitionResult {
+	id: Int!
+	title: String!
+	members: Int
+	date: String
+	groups: Int
+	targets: Int
+	winner: Objects
+	url: String!
+	discipline: String!
+}
+
+type Club {
+	id: Int!
+	title: String!
+}
+
+type Digit {
+	id: Int!
+	title: String!
+}
+
+type Discipline {
+	id: Int!
+	title: String!
+}
+
+type Sponsor {
+	id: Int!
+	title: String!
+	image: String!
+	url: String!
+	type: String!
+}
+
+type ResultType {
+	id: Int!
+	code: String!
+	title: String!
+	count: Int!
+}
+
+input UserCreateInput {
+	email: String!
+	password: String!
+	password_confirm: String!
+	name: String!
+	last_name: String!
+	phone: String!
+}
+
+input UserUpdateInput {
+	email: String
+	name: String
+	last_name: String
+	phone: String
+	city: String
+	club: Int
+	digit: Int
+	birthday: String
+	avatar: String
+	password_old: String
+	password: String
+	password_confirm: String
+	subscribe: Boolean
+	agreement: Boolean
+}
+
+scalar Objects

@@ -1,0 +1,51 @@
+.editor:hover {
+	outline: 1px solid rgb(119, 127, 140);
+	position: relative;
+}
+
+.editor:hover:before {
+	content: 'Редактировать';
+	background-color: #ccc;
+	position: absolute;
+	z-index: 9999;
+	display: block;
+	top: 0;
+	left: 0;
+}
+
+.shooter-rating-table table th {
+	white-space: nowrap;
+}
+
+.avatar-crop-popup {
+	position: relative;
+	background: #FFF;
+	padding: 20px !important;
+	width: 600px;
+	margin: 20px auto;
+}
+
+.avatar-crop-container {
+	min-height: 300px;
+}
+
+.avatar-crop-btns {
+	margin-top: 15px;
+	width: 100%;
+}
+
+.success-modal {
+	font-size: 26px;
+	padding: 40px 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body.loading {
+	overflow: hidden;
+}
+
+.tel-input-container.error input[type="tel"] {
+	border-color: #ff0000 !important;
+}

@@ -1,0 +1,43 @@
+@font-face {
+	font-family: 'Akrobat';
+	src: local("Akrobat Semibold"),
+	local("Akrobat-Semibold"),
+	url("/fonts/akrobat/akrobat-semibold.woff2") format("woff2"),
+	url("/fonts/akrobat/akrobat-semibold.woff") format("woff"),
+	url("/fonts/akrobat/akrobat-semibold.ttf") format("truetype");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Akrobat';
+	src: local("Akrobat Bold"),
+	local("Akrobat-Bold"),
+	url("/fonts/akrobat/akrobat-bold.woff2") format("woff2"),
+	url("/fonts/akrobat/akrobat-bold.woff") format("woff"),
+	url("/fonts/akrobat/akrobat-bold.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Akrobat';
+	src: local("Akrobat ExtraBold"),
+	local("Akrobat-ExtraBold"),
+	url("/fonts/akrobat/akrobat-extrabold.woff2") format("woff2"),
+	url("/fonts/akrobat/akrobat-extrabold.woff") format("woff"),
+	url("/fonts/akrobat/akrobat-extrabold.ttf") format("truetype");
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Akrobat';
+	src: local("Akrobat Black"),
+	local("Akrobat-Black"),
+	url("/fonts/akrobat/akrobat-black.woff2") format("woff2"),
+	url("/fonts/akrobat/akrobat-black.woff") format("woff"),
+	url("/fonts/akrobat/akrobat-black.ttf") format("truetype");
+	font-weight: 900;
+	font-style: normal;
+}
