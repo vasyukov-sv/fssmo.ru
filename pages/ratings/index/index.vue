@@ -17,7 +17,7 @@
 					{{ pagination.total }} {{ pagination.total | morph('стрелок', 'стрелка', 'стрелков') }}
 				</div>
 				<div class="rating-rules-link">
-					<nuxt-link to="/ratings/rules/">Правила ведения рейтинга 2</nuxt-link>
+					<nuxt-link to="/ratings/rules/">Правила ведения рейтинга</nuxt-link>
 				</div>
 			</div>
 			<RatingTable :sort="sort" :shooters="shooters" @sort="sortBy"/>

@@ -1,8 +1,15 @@
 <template>
 	<div>
 		<div class="shooter-rating-table">
-			<div class="table-results-text">
-				{{ pagination.total }} {{ pagination.total | morph('стрелок', 'стрелка', 'стрелков') }}
+			<div class="shooter-rating-table-header">
+				<div class="table-results-text">
+					{{ pagination.total }} {{ pagination.total | morph('стрелок', 'стрелка', 'стрелков') }}
+				</div>
+				<div class="rating-rules-link">
+					<nuxt-link :to="{name: 'ratings-rules', params: { rules:'rules_superfinal' } }">Условия отбора в
+						Суперфинал
+					</nuxt-link>
+				</div>
 			</div>
 			<div class="responsive-table-container">
 				<table>
