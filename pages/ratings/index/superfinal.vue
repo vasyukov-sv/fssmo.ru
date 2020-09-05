@@ -19,7 +19,7 @@
 						<th>ФИО</th>
 						<th>Категория</th>
 						<th>Турниры</th>
-						<th>Рейтинг</th>
+						<th>Сумма лучших баллов</th>
 					</tr>
 				</thead>
 				<tbody class="table-group" v-for="(shooter, index) in shooters" :class="{'active': actGroup === index}">
