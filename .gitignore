@@ -13,4 +13,3 @@ composer.lock
 sitemap*
 robots.txt
 *.log
-/backend/

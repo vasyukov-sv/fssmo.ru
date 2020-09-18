@@ -1,0 +1,536 @@
+Olympia\Fssmo\User\Handlers::onBeforeUserUpdateHandler(Array
+(
+    [TITLE] => alexprowars
+    [NAME] => sd
+    [LAST_NAME] => fdf
+    [SECOND_NAME] => 
+    [EMAIL] => alexprowars@gmail.com
+    [LOGIN] => alexprowars@gmail.com
+    [PERSONAL_PROFESSION] => 
+    [PERSONAL_WWW] => 
+    [PERSONAL_ICQ] => 
+    [PERSONAL_GENDER] => 
+    [PERSONAL_BIRTHDAY] => 
+    [PERSONAL_PHONE] => 
+    [PERSONAL_FAX] => 
+    [PERSONAL_MOBILE] => 
+    [PERSONAL_PAGER] => 
+    [PERSONAL_STREET] => 
+    [PERSONAL_MAILBOX] => 
+    [PERSONAL_CITY] => 
+    [PERSONAL_STATE] => 
+    [PERSONAL_ZIP] => 
+    [PERSONAL_COUNTRY] => 0
+    [PERSONAL_NOTES] => 
+    [WORK_COMPANY] => 
+    [WORK_DEPARTMENT] => 
+    [WORK_POSITION] => 
+    [WORK_WWW] => 
+    [WORK_PHONE] => 
+    [WORK_FAX] => 
+    [WORK_PAGER] => 
+    [WORK_STREET] => 
+    [WORK_MAILBOX] => 
+    [WORK_CITY] => 
+    [WORK_STATE] => 
+    [WORK_ZIP] => 
+    [WORK_COUNTRY] => 0
+    [WORK_PROFILE] => 
+    [WORK_NOTES] => 
+    [AUTO_TIME_ZONE] => 
+    [XML_ID] => 
+    [LID] => s1
+    [LANGUAGE_ID] => ru
+    [ACTIVE] => Y
+    [GROUP_ID] => Array
+        (
+            [0] => Array
+                (
+                    [GROUP_ID] => 3
+                    [DATE_ACTIVE_FROM] => 
+                    [DATE_ACTIVE_TO] => 
+                )
+
+            [1] => Array
+                (
+                    [GROUP_ID] => 4
+                    [DATE_ACTIVE_FROM] => 
+                    [DATE_ACTIVE_TO] => 
+                )
+
+        )
+
+    [ADMIN_NOTES] => 
+    [UF_DIGIT_ID] => 0
+    [UF_CLUB_ID] => 0
+    [UF_SHOOTER_ID] => 
+    [UF_AGREEMENT] => 0
+    [CHECKWORD] => 1c6483be97086007dd03249b8820aea0
+    [~CHECKWORD_TIME] => now()
+    [ID] => 1370
+    [RESULT] => 1
+)
+):
+Invalid GUID
+
+Olympia\Fssmo\User\Handlers::onBeforeUserUpdateHandler(Array
+(
+    [TITLE] => 
+    [NAME] => Алексей
+    [LAST_NAME] => Поддержка
+    [SECOND_NAME] => 
+    [EMAIL] => alexprowars@gmail.com
+    [LOGIN] => alexprowars@gmail.com
+    [PERSONAL_PROFESSION] => 
+    [PERSONAL_WWW] => 
+    [PERSONAL_ICQ] => 
+    [PERSONAL_GENDER] => M
+    [PERSONAL_BIRTHDAY] => 30.04.1997
+    [PERSONAL_PHONE] => +79256547866
+    [PERSONAL_FAX] => 
+    [PERSONAL_MOBILE] => 
+    [PERSONAL_PAGER] => 
+    [PERSONAL_STREET] => 
+    [PERSONAL_MAILBOX] => 
+    [PERSONAL_CITY] => Санкт-Петербург
+    [PERSONAL_STATE] => 
+    [PERSONAL_ZIP] => 
+    [PERSONAL_COUNTRY] => 0
+    [PERSONAL_NOTES] => 
+    [WORK_COMPANY] => 
+    [WORK_DEPARTMENT] => 
+    [WORK_POSITION] => 
+    [WORK_WWW] => 
+    [WORK_PHONE] => 
+    [WORK_FAX] => 
+    [WORK_PAGER] => 
+    [WORK_STREET] => 
+    [WORK_MAILBOX] => 
+    [WORK_CITY] => 
+    [WORK_STATE] => 
+    [WORK_ZIP] => 
+    [WORK_COUNTRY] => 0
+    [WORK_PROFILE] => 
+    [WORK_NOTES] => 
+    [AUTO_TIME_ZONE] => 
+    [XML_ID] => 2D3B0000-CEE5-432C-9190-CE7B779CAF04
+    [LID] => s1
+    [LANGUAGE_ID] => ru
+    [ACTIVE] => Y
+    [GROUP_ID] => Array
+        (
+            [0] => Array
+                (
+                    [GROUP_ID] => 1
+                    [DATE_ACTIVE_FROM] => 
+                    [DATE_ACTIVE_TO] => 
+                )
+
+            [1] => Array
+                (
+                    [GROUP_ID] => 3
+                    [DATE_ACTIVE_FROM] => 
+                    [DATE_ACTIVE_TO] => 
+                )
+
+            [2] => Array
+                (
+                    [GROUP_ID] => 4
+                    [DATE_ACTIVE_FROM] => 
+                    [DATE_ACTIVE_TO] => 
+                )
+
+            [3] => Array
+                (
+                    [GROUP_ID] => 1
+                    [DATE_ACTIVE_FROM] => 
+                    [DATE_ACTIVE_TO] => 
+                )
+
+        )
+
+    [ADMIN_NOTES] => 
+    [UF_DIGIT_ID] => 6
+    [UF_CLUB_ID] => 10
+    [UF_SHOOTER_ID] => 2
+    [UF_AGREEMENT] => 1
+    [CHECKWORD] => 3f2e5f8d25d1c3f779aea1208485ddde
+    [~CHECKWORD_TIME] => now()
+    [ID] => 1
+    [RESULT] => 1
+)
+):
+MS Sql query error: SQLSTATE: 23000; code: 2601; message: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert duplicate key row in object 'dbo.aspnet_Users' with unique index 'aspnet_Users_Index'. The duplicate key value is (22943513-b7e9-4274-a84f-997b834854eb, alexprowars@gmail.com).
+SQLSTATE: 01000; code: 3621; message: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated.
+
+
+Olympia\Fssmo\User\Handlers::onBeforeUserUpdateHandler(Array
+(
+    [TITLE] => 
+    [NAME] => Алексей
+    [LAST_NAME] => Поддержка
+    [SECOND_NAME] => 
+    [EMAIL] => alexprowars@gmail.com
+    [LOGIN] => alexprowars@gmail.com
+    [PERSONAL_PROFESSION] => 
+    [PERSONAL_WWW] => 
+    [PERSONAL_ICQ] => 
+    [PERSONAL_GENDER] => M
+    [PERSONAL_BIRTHDAY] => 30.04.1997
+    [PERSONAL_PHONE] => +79256547866
+    [PERSONAL_FAX] => 
+    [PERSONAL_MOBILE] => 
+    [PERSONAL_PAGER] => 
+    [PERSONAL_STREET] => 
+    [PERSONAL_MAILBOX] => 
+    [PERSONAL_CITY] => Санкт-Петербург
+    [PERSONAL_STATE] => 
+    [PERSONAL_ZIP] => 
+    [PERSONAL_COUNTRY] => 0
+    [PERSONAL_NOTES] => 
+    [WORK_COMPANY] => 
+    [WORK_DEPARTMENT] => 
+    [WORK_POSITION] => 
+    [WORK_WWW] => 
+    [WORK_PHONE] => 
+    [WORK_FAX] => 
+    [WORK_PAGER] => 
+    [WORK_STREET] => 
+    [WORK_MAILBOX] => 
+    [WORK_CITY] => 
+    [WORK_STATE] => 
+    [WORK_ZIP] => 
+    [WORK_COUNTRY] => 0
+    [WORK_PROFILE] => 
+    [WORK_NOTES] => 
+    [AUTO_TIME_ZONE] => 
+    [XML_ID] => 2D3B0000-CEE5-432C-9190-CE7B779CAF04
+    [LID] => s1
+    [LANGUAGE_ID] => ru
+    [ACTIVE] => Y
+    [GROUP_ID] => Array
+        (
+            [0] => Array
+                (
+                    [GROUP_ID] => 1
+                    [DATE_ACTIVE_FROM] => 
+                    [DATE_ACTIVE_TO] => 
+                )
+
+            [1] => Array
+                (
+                    [GROUP_ID] => 3
+                    [DATE_ACTIVE_FROM] => 
+                    [DATE_ACTIVE_TO] => 
+                )
+
+            [2] => Array
+                (
+                    [GROUP_ID] => 4
+                    [DATE_ACTIVE_FROM] => 
+                    [DATE_ACTIVE_TO] => 
+                )
+
+            [3] => Array
+                (
+                    [GROUP_ID] => 1
+                    [DATE_ACTIVE_FROM] => 
+                    [DATE_ACTIVE_TO] => 
+                )
+
+        )
+
+    [ADMIN_NOTES] => 
+    [PASSWORD] => Bx;8S$2veb5956607f9b4803b96f0551125c2344
+    [CONFIRM_PASSWORD] => Mohxoh3O
+    [UF_DIGIT_ID] => 6
+    [UF_CLUB_ID] => 10
+    [UF_SHOOTER_ID] => 2
+    [UF_AGREEMENT] => 1
+    [CHECKWORD] => 9256791e2efa5eb209c2f8e837f005c9
+    [~CHECKWORD_TIME] => now()
+    [ID] => 1
+    [RESULT] => 1
+)
+):
+MS Sql query error: SQLSTATE: 23000; code: 2601; message: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert duplicate key row in object 'dbo.aspnet_Users' with unique index 'aspnet_Users_Index'. The duplicate key value is (22943513-b7e9-4274-a84f-997b834854eb, alexprowars@gmail.com).
+SQLSTATE: 01000; code: 3621; message: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated.
+
+
+Olympia\Fssmo\User\Handlers::onBeforeUserUpdateHandler(Array
+(
+    [TITLE] => 
+    [NAME] => Павел
+    [LAST_NAME] => Качурин
+    [SECOND_NAME] => Валерьевич
+    [EMAIL] => apple.kpv@gmail.com
+    [LOGIN] => apple.kpv@gmail.com
+    [PERSONAL_PROFESSION] => 
+    [PERSONAL_WWW] => 
+    [PERSONAL_ICQ] => 
+    [PERSONAL_GENDER] => 
+    [PERSONAL_BIRTHDAY] => 
+    [PERSONAL_PHONE] => 
+    [PERSONAL_FAX] => 
+    [PERSONAL_MOBILE] => 
+    [PERSONAL_PAGER] => 
+    [PERSONAL_STREET] => 
+    [PERSONAL_MAILBOX] => 
+    [PERSONAL_CITY] => 
+    [PERSONAL_STATE] => 
+    [PERSONAL_ZIP] => 
+    [PERSONAL_COUNTRY] => 1
+    [PERSONAL_NOTES] => 
+    [WORK_COMPANY] => 
+    [WORK_DEPARTMENT] => 
+    [WORK_POSITION] => 
+    [WORK_WWW] => 
+    [WORK_PHONE] => 
+    [WORK_FAX] => 
+    [WORK_PAGER] => 
+    [WORK_STREET] => 
+    [WORK_MAILBOX] => 
+    [WORK_CITY] => 
+    [WORK_STATE] => 
+    [WORK_ZIP] => 
+    [WORK_COUNTRY] => 0
+    [WORK_PROFILE] => 
+    [WORK_NOTES] => 
+    [AUTO_TIME_ZONE] => 
+    [XML_ID] => 87071340-6112-48C2-9F4B-CCFF78BA98FD
+    [LID] => s1
+    [LANGUAGE_ID] => ru
+    [ACTIVE] => Y
+    [GROUP_ID] => Array
+        (
+            [0] => Array
+                (
+                    [GROUP_ID] => 3
+                    [DATE_ACTIVE_FROM] => 
+                    [DATE_ACTIVE_TO] => 
+                )
+
+            [1] => Array
+                (
+                    [GROUP_ID] => 4
+                    [DATE_ACTIVE_FROM] => 
+                    [DATE_ACTIVE_TO] => 
+                )
+
+        )
+
+    [ADMIN_NOTES] => 
+    [UF_DIGIT_ID] => 2р
+    [UF_CLUB_ID] => 
+    [UF_SHOOTER_ID] => 4503
+    [UF_AGREEMENT] => 0
+    [CHECKWORD] => a1001d049fad399ae3d641628b1c94a3
+    [~CHECKWORD_TIME] => now()
+    [ID] => 1438
+    [RESULT] => 1
+)
+):
+MS Sql query error: SQLSTATE: 23000; code: 547; message: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_UserProfiles_Digits_id". The conflict occurred in database "1gb_fssmo", table "dbo.Digits", column 'id'.
+SQLSTATE: 01000; code: 3621; message: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated.
+
+
+Olympia\Fssmo\User\Handlers::onBeforeUserUpdateHandler(Array
+(
+    [TITLE] => 
+    [NAME] => Павел
+    [LAST_NAME] => Качурин
+    [SECOND_NAME] => Валерьевич
+    [EMAIL] => apple.kpv@gmail.com
+    [LOGIN] => apple.kpv@gmail.com
+    [PERSONAL_PROFESSION] => 
+    [PERSONAL_WWW] => 
+    [PERSONAL_ICQ] => 
+    [PERSONAL_GENDER] => 
+    [PERSONAL_BIRTHDAY] => 
+    [PERSONAL_PHONE] => 
+    [PERSONAL_FAX] => 
+    [PERSONAL_MOBILE] => 
+    [PERSONAL_PAGER] => 
+    [PERSONAL_STREET] => 
+    [PERSONAL_MAILBOX] => 
+    [PERSONAL_CITY] => 
+    [PERSONAL_STATE] => 
+    [PERSONAL_ZIP] => 
+    [PERSONAL_COUNTRY] => 1
+    [PERSONAL_NOTES] => 
+    [WORK_COMPANY] => 
+    [WORK_DEPARTMENT] => 
+    [WORK_POSITION] => 
+    [WORK_WWW] => 
+    [WORK_PHONE] => 
+    [WORK_FAX] => 
+    [WORK_PAGER] => 
+    [WORK_STREET] => 
+    [WORK_MAILBOX] => 
+    [WORK_CITY] => 
+    [WORK_STATE] => 
+    [WORK_ZIP] => 
+    [WORK_COUNTRY] => 0
+    [WORK_PROFILE] => 
+    [WORK_NOTES] => 
+    [AUTO_TIME_ZONE] => 
+    [XML_ID] => 87071340-6112-48C2-9F4B-CCFF78BA98FD
+    [LID] => s1
+    [LANGUAGE_ID] => ru
+    [ACTIVE] => Y
+    [GROUP_ID] => Array
+        (
+            [0] => Array
+                (
+                    [GROUP_ID] => 3
+                    [DATE_ACTIVE_FROM] => 
+                    [DATE_ACTIVE_TO] => 
+                )
+
+            [1] => Array
+                (
+                    [GROUP_ID] => 4
+                    [DATE_ACTIVE_FROM] => 
+                    [DATE_ACTIVE_TO] => 
+                )
+
+        )
+
+    [ADMIN_NOTES] => 
+    [UF_DIGIT_ID] => 2
+    [UF_CLUB_ID] => 
+    [UF_SHOOTER_ID] => 4503
+    [UF_AGREEMENT] => 1
+    [CHECKWORD] => c4663ec0e1c30694f87c2953a1b99703
+    [~CHECKWORD_TIME] => now()
+    [ID] => 1438
+    [RESULT] => 1
+)
+):
+MS Sql query error: SQLSTATE: 23000; code: 547; message: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_UserProfiles_Digits_id". The conflict occurred in database "1gb_fssmo", table "dbo.Digits", column 'id'.
+SQLSTATE: 01000; code: 3621; message: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated.
+
+
+Olympia\Fssmo\User\Handlers::onBeforeUserUpdateHandler(Array
+(
+    [NAME] => Вячеслав
+    [LAST_NAME] => Черненко
+    [LOGIN] => ultimat1301@gmail.com
+    [EMAIL] => ultimat1301@gmail.com
+    [PERSONAL_PHONE] => +79859396982
+    [PERSONAL_CITY] => Москва
+    [UF_CLUB_ID] => 56
+    [UF_DIGIT_ID] => 8
+    [UF_AGREEMENT] => 1
+    [PERSONAL_BIRTHDAY] => 13.01.1998
+    [CHECKWORD] => 9b540a826473c75a69bb9f3bd9d89630
+    [~CHECKWORD_TIME] => now()
+    [ID] => 1469
+    [RESULT] => 1
+)
+):
+Invalid GUID
+
+Olympia\Fssmo\User\Handlers::onBeforeUserUpdateHandler(Array
+(
+    [NAME] => Павел
+    [LAST_NAME] => Воронин
+    [LOGIN] => PavelVoronin420@icloud.com
+    [EMAIL] => PavelVoronin420@icloud.com
+    [PERSONAL_PHONE] => +79778778863
+    [PERSONAL_CITY] => Дмитров
+    [UF_CLUB_ID] => 1
+    [UF_DIGIT_ID] => 6
+    [UF_AGREEMENT] => 1
+    [PERSONAL_BIRTHDAY] => 26.01.2004
+    [CHECKWORD] => c0af22b1d7506b9b2825ca0f75e22829
+    [~CHECKWORD_TIME] => now()
+    [ID] => 1507
+    [RESULT] => 1
+)
+):
+Invalid GUID
+
+Olympia\Fssmo\User\Handlers::onBeforeUserUpdateHandler(Array
+(
+    [NAME] => Аслан
+    [LAST_NAME] => Саргсян
+    [LOGIN] => aslan888@yandex.ru
+    [EMAIL] => aslan888@yandex.ru
+    [PERSONAL_PHONE] => +79152655555
+    [PERSONAL_CITY] => Подольск
+    [UF_CLUB_ID] => 10
+    [UF_DIGIT_ID] => 6
+    [UF_AGREEMENT] => 1
+    [PERSONAL_BIRTHDAY] => 11.11.1970
+    [CHECKWORD] => 0d1f3c4bfc8f6753fe1d9c55a0c2dae9
+    [~CHECKWORD_TIME] => now()
+    [ID] => 1509
+    [RESULT] => 1
+)
+):
+Invalid GUID
+
+Olympia\Fssmo\User\Handlers::onBeforeUserUpdateHandler(Array
+(
+    [NAME] => Алексей
+    [LAST_NAME] => Поддержка
+    [LOGIN] => alexprowars@gmail.com
+    [EMAIL] => alexprowars@gmail.com
+    [PERSONAL_PHONE] => +79256547866
+    [PERSONAL_CITY] => Санкт-Петербург
+    [UF_DIGIT_ID] => 6
+    [UF_AGREEMENT] => 1
+    [PERSONAL_BIRTHDAY] => 30.04.1997
+    [CHECKWORD] => 1528343fdac43425e6a2ee9901a30a0a
+    [~CHECKWORD_TIME] => now()
+    [ID] => 1
+    [RESULT] => 1
+)
+):
+MS Sql query error: SQLSTATE: 23000; code: 2601; message: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert duplicate key row in object 'dbo.aspnet_Users' with unique index 'aspnet_Users_Index'. The duplicate key value is (22943513-b7e9-4274-a84f-997b834854eb, alexprowars@gmail.com).
+SQLSTATE: 01000; code: 3621; message: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated.
+
+
+Olympia\Fssmo\User\Handlers::onBeforeUserUpdateHandler(Array
+(
+    [NAME] => Алексей
+    [LAST_NAME] => Поддержка
+    [LOGIN] => alexprowars@gmail.com
+    [EMAIL] => alexprowars@gmail.com
+    [PERSONAL_PHONE] => +79256547866
+    [PERSONAL_CITY] => Санкт-Петербург
+    [UF_DIGIT_ID] => 6
+    [UF_AGREEMENT] => 1
+    [PERSONAL_BIRTHDAY] => 30.04.1997
+    [CHECKWORD] => 4f276f312cd770a1b25acb9683b57405
+    [~CHECKWORD_TIME] => now()
+    [ID] => 1
+    [RESULT] => 1
+)
+):
+MS Sql query error: SQLSTATE: 23000; code: 2601; message: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert duplicate key row in object 'dbo.aspnet_Users' with unique index 'aspnet_Users_Index'. The duplicate key value is (22943513-b7e9-4274-a84f-997b834854eb, alexprowars@gmail.com).
+SQLSTATE: 01000; code: 3621; message: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated.
+
+
+Olympia\Fssmo\User\Handlers::onBeforeUserUpdateHandler(Array
+(
+    [NAME] => Алексей
+    [LAST_NAME] => Поддержка
+    [LOGIN] => alexprowars@gmail.com
+    [EMAIL] => alexprowars@gmail.com
+    [PERSONAL_PHONE] => +79256547866
+    [PERSONAL_CITY] => Санкт-Петербург
+    [UF_DIGIT_ID] => 6
+    [UF_AGREEMENT] => 1
+    [PERSONAL_BIRTHDAY] => 30.04.1997
+    [CHECKWORD] => a75539b292ec1a520c71c21a3581d53c
+    [~CHECKWORD_TIME] => now()
+    [ID] => 1
+    [RESULT] => 1
+)
+):
+MS Sql query error: SQLSTATE: 23000; code: 2601; message: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert duplicate key row in object 'dbo.aspnet_Users' with unique index 'aspnet_Users_Index'. The duplicate key value is (22943513-b7e9-4274-a84f-997b834854eb, alexprowars@gmail.com).
+SQLSTATE: 01000; code: 3621; message: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated.
+
+
