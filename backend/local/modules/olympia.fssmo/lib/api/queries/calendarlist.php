@@ -75,18 +75,6 @@ class CalendarList
 
 		if ($filter['country'] && (int) $filter['country'] > 0)
 			$items->addFilter('PROPERTY.COUNTRY', (int) $filter['country']);
-		elseif (!isset($filter['country']) && !isset($filter['user']))
-		{
-			Loader::includeModule('sale');
-
-			$russia = LocationTable::query()
-				->setSelect(['ID', 'LOCATION_NAME' => 'NAME.NAME'])
-				->setFilter(['=TYPE.CODE' => 'COUNTRY', '=NAME.LANGUAGE_ID' => LANGUAGE_ID, 'NAME.NAME' => 'Россия'])
-				->exec()->fetch();
-
-			if ($russia)
-				$items->addFilter('PROPERTY.COUNTRY', $russia['ID']);
-		}
 
 		if ($filter['district'] && (int) $filter['district'] > 0)
 			$items->addFilter('PROPERTY.DISTRICT', (int) $filter['district']);
