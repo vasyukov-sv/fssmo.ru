@@ -52,7 +52,7 @@ class CalendarForm
 		}
 
 		$fields = [
-			'ACTIVE' => 'Y',
+			'ACTIVE' => 'N',
 			'NAME' => $props['name'] ?? 'Соревнование',
 			'PROPERTY' => [
 				'ACTIVE_FROM' => date("d.m.Y H:i:s", strtotime($props['date_start'])),
@@ -77,7 +77,7 @@ class CalendarForm
 					'ID',
 				])
 				->setFilter([
-					'=ACTIVE' => 'Y', 
+					'=ACTIVE' => 'Y',
 					'=ID' => (int) $args['id'],
 					'=CREATED_BY' => $context['user'],
 				])

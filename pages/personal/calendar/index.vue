@@ -444,6 +444,10 @@
 						}
 						else
 						{
+						  this.$modal.show(SuccessModal, {
+							text: "После проверки модератором информация о соревновании \"" + this.form.name + "\" появится на сайте."
+						  })
+
 							this.$nextTick(() => {
 								this.$router.push('/calendar/')
 							})
