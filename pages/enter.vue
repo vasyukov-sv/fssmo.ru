@@ -92,27 +92,27 @@
 												<div class="input-container">
 													<div class="button-radio-group">
 														<label class="radio-group-item">
-															<input type="radio" name="sport_title" v-model="form.sport_title" value="МС" :class="{error: $v.form.sport_title.$error}" @change="$v.form.sport_title.$touch()">
+															<input type="radio" name="sport_title" v-model="form.sport_title" value="МС">
 															<div class="group-radio-content">МС</div>
 														</label>
 														<label class="radio-group-item">
-															<input type="radio" name="sport_title" v-model="form.sport_title" value="КМС" :class="{error: $v.form.sport_title.$error}" @change="$v.form.sport_title.$touch()">
+															<input type="radio" name="sport_title" v-model="form.sport_title" value="КМС" >
 															<div class="group-radio-content">КМС</div>
 														</label>
 														<label class="radio-group-item">
-															<input type="radio" name="sport_title" v-model="form.sport_title" value="I" :class="{error: $v.form.sport_title.$error}" @change="$v.form.sport_title.$touch()">
+															<input type="radio" name="sport_title" v-model="form.sport_title" value="I">
 															<div class="group-radio-content">I</div>
 														</label>
 														<label class="radio-group-item">
-															<input type="radio" name="sport_title" v-model="form.sport_title" value="II" :class="{error: $v.form.sport_title.$error}" @change="$v.form.sport_title.$touch()">
+															<input type="radio" name="sport_title" v-model="form.sport_title" value="II">
 															<div class="group-radio-content">II</div>
 														</label>
 														<label class="radio-group-item">
-															<input type="radio" name="sport_title" v-model="form.sport_title" value="III" :class="{error: $v.form.sport_title.$error}" @change="$v.form.sport_title.$touch()">
+															<input type="radio" name="sport_title" v-model="form.sport_title" value="III">
 															<div class="group-radio-content">III</div>
 														</label>
 														<label class="radio-group-item">
-															<input type="radio" name="sport_title" v-model="form.sport_title" value="" :class="{error: $v.form.sport_title.$error}" @change="$v.form.sport_title.$touch()">
+															<input type="radio" name="sport_title" v-model="form.sport_title" value="">
 															<div class="group-radio-content">НЕТ</div>
 														</label>
 													</div>
@@ -122,21 +122,21 @@
 											<div class="form-group form-group-label-inline">
 												<label class="form-label">Год получения</label>
 												<div class="input-container">
-													<input type="text" name="sport_title_date" v-model="form.sport_title_date" :class="{error: $v.form.sport_title_date.$error}" @change="$v.form.sport_title_date.$touch()">
+													<input type="text" name="sport_title_date" v-model="form.sport_title_date">
 												</div>
 											</div>
 
 											<div class="form-group form-group-label-inline">
 												<label class="form-label">ФИО Первого тренера</label>
 												<div class="input-container">
-													<input type="text" name="first_trainer_name" v-model="form.first_trainer_name" :class="{error: $v.form.first_trainer_name.$error}" @change="$v.form.first_trainer_name.$touch()">
+													<input type="text" name="first_trainer_name" v-model="form.first_trainer_name">
 												</div>
 											</div>
 
 											<div class="form-group form-group-label-inline">
 												<label class="form-label">Фио тренера в настоящее время</label>
 												<div class="input-container">
-													<input type="text" name="current_trainer_name" v-model="form.current_trainer_name" :class="{error: $v.form.current_trainer_name.$error}" @change="$v.form.current_trainer_name.$touch()">
+													<input type="text" name="current_trainer_name" v-model="form.current_trainer_name">
 												</div>
 											</div>
 
@@ -162,23 +162,23 @@
 										<br>
 										<h5>Стоимость вступления в клуб - {{ info['price']['value'] }} ₽</h5>
 										<div class="page-default-form">
-											<div class="form-group">
-												<div class="radio">
-													<input type="radio" v-model="payment" id="payment_online" name="payment" value="online" />
-													<label for="payment_online">Оплата онлайн</label>
-												</div>
-											</div>
-											<div v-if="user !== null && user['budget'] && user['budget']['value'] > 0" class="form-group">
-												<div class="radio">
-													<input type="radio" v-model="payment" id="payment_balance" name="payment" value="balance" />
-													<label v-if="user['budget']['value'] < info['price']['value']" for="payment_balance">
-														Оплата онлайн + с баланса <b>(ваш баланс {{ user['budget']['value'] }}  ₽)</b>
-													</label>
-													<label v-else for="payment_balance">
-														Оплата с баланса <b>(ваш баланс {{ user['budget']['value'] }}  ₽)</b>
-													</label>
-												</div>
-											</div>
+											<!--<div class="form-group">-->
+												<!--<div class="radio">-->
+													<!--<input type="radio" v-model="payment" id="payment_online" name="payment" value="online" />-->
+													<!--<label for="payment_online">Оплата онлайн</label>-->
+												<!--</div>-->
+											<!--</div>-->
+											<!--<div v-if="user !== null && user['budget'] && user['budget']['value'] > 0" class="form-group">-->
+												<!--<div class="radio">-->
+													<!--<input type="radio" v-model="payment" id="payment_balance" name="payment" value="balance" />-->
+													<!--<label v-if="user['budget']['value'] < info['price']['value']" for="payment_balance">-->
+														<!--Оплата онлайн + с баланса <b>(ваш баланс {{ user['budget']['value'] }}  ₽)</b>-->
+													<!--</label>-->
+													<!--<label v-else for="payment_balance">-->
+														<!--Оплата с баланса <b>(ваш баланс {{ user['budget']['value'] }}  ₽)</b>-->
+													<!--</label>-->
+												<!--</div>-->
+											<!--</div>-->
 											<div class="form-group">
 												<div class="radio">
 													<input type="radio" v-model="payment" id="payment_offline" name="payment" value="offline" />
@@ -187,7 +187,7 @@
 											</div>
 											<div class="form-group form-group-label-inline">
 												<div class="form-btn">
-													<button type="submit" class="btn btn-gold">Оплатить</button>
+													<button type="submit" class="btn btn-gold">Отправить</button>
 												</div>
 											</div>
 										</div>
@@ -317,7 +317,7 @@
 					phone: '',
 					email: '',
 				},
-				payment: 'online',
+				payment: 'offline',
 			}
 		},
 		validations: {
@@ -338,18 +338,6 @@
 					required
 				},
 				birthday: {
-					required
-				},
-				sport_title: {
-					required
-				},
-				sport_title_date: {
-					required
-				},
-				first_trainer_name: {
-					required
-				},
-				current_trainer_name: {
 					required
 				},
 				phone: {
