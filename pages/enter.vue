@@ -211,7 +211,7 @@
 									<div class="doc-item">
 										<div class="doc-info">
 											<a href="/docs/anketa.pdf" target="_blank"  class="doc-title">Анкета</a>
-											<span class="doc-size">(pdf, 115 Кб)</span>
+											<span class="doc-size">(pdf, 72 Кб)</span>
 										</div>
 										<div class="doc-btn-container">
 											<a href="/docs/anketa.pdf" target="_blank" class="doc-btn">Скачать</a>
