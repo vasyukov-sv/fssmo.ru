@@ -20,11 +20,10 @@ class PhotoAlbums
 
 		$competitions = CompetitionsTable::query()
 			->setOrder(['PROPERTY.DATE_FROM' => 'DESC'])
-			->setSelect(['ID', 'NAME', 'DETAIL_PAGE_URL', 'PROPERTY.PHOTO', 'PROPERTY.DATE_FROM', 'PROPERTY.LOCATION'])
+			->setSelect(['ID', 'NAME', 'DETAIL_PAGE_URL', 'PROPERTY.PHOTO', 'PROPERTY.DATE_FROM', 'PROPERTY.LOCATION', 'PROPERTY.LOCATION_CITY'])
 			->setFilter([
 				'=ACTIVE' => 'Y',
-				'<PROPERTY.DATE_FROM' => date('Y-m-d 00:00:00'),
-				'=PROPERTY.URL' => false,
+				'<PROPERTY.DATE_FROM' => date('Y-m-d 00:00:00')
 			])
 			->where(new ExpressionField('PHOTO', 'LENGTH(%s)', 'PROPERTY.PHOTO'), '>', 75)
 			->setLimit($limit)
@@ -46,11 +45,20 @@ class PhotoAlbums
 			if ($competition->getProperty('DATE_FROM') != '')
 				$date = date('Y-m-d\TH:i:s', strtotime($competition->getProperty('DATE_FROM')));
 
+			$location = (string) $competition->getProperty('LOCATION');
+
+			if ($location == '-')
+				$location = '';
+
+			if ($competition->getProperty('LOCATION_CITY')) {
+				$location .= (!empty($location) ? ', ' : '') . $competition->getProperty('LOCATION_CITY');
+			}
+
 			$row = [
 				'id' => $competition->ID,
 				'title' => $competition->NAME,
 				'date' => $date,
-				'location' => $competition->getProperty('LOCATION'),
+				'location' => $location,
 				'url' => $competition->DETAIL_PAGE_URL != '' ? $competition->DETAIL_PAGE_URL.'photo/' : '',
 				'photos' => []
 			];
