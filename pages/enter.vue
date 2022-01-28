@@ -237,7 +237,7 @@
 								<div class="price-title">Ежегодный членский взнос {{ info['items']['FSSMO_MEMBERSHIP_FEE']['value'] }}&nbsp;&#8381;</div>
 							</div>
 							<div class="price-section">
-								<div class="price-title">Выбор личного номера 5000&nbsp;&#8381;</div>
+								<div class="price-title">Выбор личного номера 9000&nbsp;&#8381;</div>
 								<div class="price-text">
 									Деньги идут на организацию соревнований Московской области по скиту и трапу среди юношей и девушек.
 								</div>
